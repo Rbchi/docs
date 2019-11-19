@@ -11,11 +11,22 @@ In this guidance we use the pre-built binary directly.
 
 ### Dependencies
 
-CentOS users please use the `x86_64-unknown-centos-gnu` package, which also requires OpenSSL 1.0 to run:
+MacOS users please use the command to install OpenSSL 1.1
+
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”
+```
+and then install
+```
+brew install openssl@1.1
+```
+
+CentOS users please use the `x86_64-unknown-centos-gnu` package, which also requires OpenSSL 1.1 to run:
 
 ```shell
 sudo yum install openssl-libs
 ```
+
 
 ### Download
 
